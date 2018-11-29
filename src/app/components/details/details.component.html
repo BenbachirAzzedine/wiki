@@ -1,0 +1,17 @@
+<mat-grid-list cols="4" row="4" rowHeight="100px" *ngFor="let detail of details" class="mat-primary">
+  <mat-grid-tile rowspan="1" colspan="4" class="title">
+      {{ detail.title }}
+  </mat-grid-tile>
+  <mat-grid-tile rowspan="2" colspan="4" class="date">
+      {{ detail.publicationDate | date:'longDate' }}
+  </mat-grid-tile>
+  <mat-grid-tile rowspan="3" colspan="4" class="describe">
+      {{ detail.description }}
+  </mat-grid-tile>
+  <mat-grid-tile rowspan="4" colspan="2" class="link">
+      {{ detail.url }}
+  </mat-grid-tile>
+  <mat-grid-tile rowspan="4" colspan="2" class="tags">
+    <p *ngFor="let detail of details">{{ detail.tags }}</p>
+  </mat-grid-tile>
+</mat-grid-list>

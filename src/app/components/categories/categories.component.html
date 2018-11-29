@@ -1,0 +1,4 @@
+<div class="container" *ngIf="!loading">
+<app-cards *ngFor="let card of cards"
+[card]="card" [category]="categorie"></app-cards>
+</div>

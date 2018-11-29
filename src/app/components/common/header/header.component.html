@@ -1,0 +1,11 @@
+<div class="container">
+  <mat-toolbar class="mat-primary">
+    <a routerLink="homepage">La Biible</a>
+    <form [formGroup]="searchBar" class="searchBar">
+      <label>
+        Recherche:
+        <input type="text" formControlName="search" (keyup)="onSend($event)" routerLink="search">
+      </label>
+    </form>
+  </mat-toolbar>
+</div>

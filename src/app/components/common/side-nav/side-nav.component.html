@@ -1,0 +1,5 @@
+<mat-list>
+  <mat-list-item *ngFor='let categories of categories'>
+      <a routerLink="/categories/{{ categories.id }}"> {{categories.name}} </a>
+  </mat-list-item>
+</mat-list>

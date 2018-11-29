@@ -1,0 +1,124 @@
+[
+    {
+        "id": "1",
+        "publicationDate": "2018-04-20T12:20",
+        "title": "Angular",
+        "logo": "assets/logo/angular-logo.svg.png",
+        "description": "Angular is a TypeScript-based open-source front-end web application platform led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.",
+        "url": [
+            "https://angular.io/",
+            "https://angular.io/docs"
+        ],
+        "categories": [
+            "1"
+        ],
+        "plugLink": [],
+        "tags": [
+          "#Framework",
+          "#Front-End"
+        ],
+        "forward": true
+    },
+    {
+        "id": "2",
+        "publicationDate": "2018-01-08T17:00",
+        "title": "Symfony",
+        "logo": "assets/logo/symfony-logo2.png",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem ap",
+        "url": [
+            "https://symfony.com/what-is-symfony",
+            "https://symfony.com/doc/current/index.html#gsc.tab=0"
+        ],
+        "categories": [
+            "1"
+        ],
+        "plugLink": [],
+        "tags": [
+          "#Framework",
+          "#Back-End"
+        ],
+        "forward": true
+    },
+    {
+        "id": "3",
+        "publicationDate": "2018-10-08T15:40",
+        "title": "Visual Studio Code",
+        "logo": "assets/logo/vscode-logo.png",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem ap",
+        "url": [
+            "https://code.visualstudio.com/",
+            "https://code.visualstudio.com/docs"
+        ],
+        "categories": [
+            "2"
+        ],
+        "plugLink": [],
+        "tags": [
+          "#IDE",
+          "#Tools"
+        ],
+        "forward": false
+    },
+    {
+        "id": "4",
+        "publicationDate": "2018-10-08T15:40",
+        "title": "PhpStorm",
+        "logo": "assets/logo/phpstorm-logo.jpeg",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem ap",
+        "url": [
+            "https://www.jetbrains.com/phpstorm/" ,
+            "https://www.jetbrains.com/phpstorm/documentation/"
+        ],
+        "categories": [
+            "2"
+        ],
+        "plugLink": [],
+        "tags": [
+          "#IDE",
+          "#Tools"
+        ],
+        "forward": false
+    },
+    {
+      "id": "5",
+      "publicationDate": "2018-01-15T09:35",
+      "title": "Moment",
+      "logo": "assets/logo/moment-logo.png",
+      "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem ap",
+      "url": [
+          "https://momentjs.com/",
+          "https://momentjs.com/docs/"
+      ],
+      "categories": [
+          "3"
+      ],
+      "plugLink": [],
+      "tags": [
+        "#Library",
+        "#Date",
+        "#JS"
+      ],
+      "forward": false
+  },
+  {
+    "id": "6",
+    "publicationDate": "2018-02-13T08:05",
+    "title": "Pchart",
+    "logo": "assets/logo/pchart-logo.jpeg",
+    "description": "pChart is a PHP library that will help you to create anti-aliased charts or pictures directly from your web server. You can then display the result in the client browser, sent it by mail or insert it into PDFs. pChart provide object oriented coding syntax and is fully in line with the new web standards allowing you to enhance your web2.0 applications.",
+    "url": [
+        "http://www.pchart.net/" ,
+        "http://wiki.pchart.net/"
+    ],
+    "categories": [
+        "3"
+    ],
+    "plugLink": [],
+    "tags": [
+      "#Library",
+      "#Date",
+      "#PHP"
+    ],
+    "forward": true
+}
+]

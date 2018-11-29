@@ -1,0 +1,17 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <mat-card-title>{{ card.title }}</mat-card-title>
+    <mat-card-subtitle>{{ category.name }}</mat-card-subtitle>
+  </mat-card-header>
+  <div class="logo">
+    <img [src]="card.logo">
+  </div>
+  <mat-card-content>
+    <p>
+      {{ card.description }}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <a routerLink="/details/{{ card.id }}">Details</a>
+  </mat-card-actions>
+</mat-card>
